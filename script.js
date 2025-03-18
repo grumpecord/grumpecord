@@ -1,6 +1,6 @@
 body {
     font-family: "Arial", sans-serif;
-    background: url('https://i.imgur.com/2zGtQ3C.png') repeat;
+    background: url('https://imgur.com/CIMhNC9') repeat;
     color: #fff;
     text-align: center;
     margin: 0;
