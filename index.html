@@ -10,49 +10,68 @@
     <header>
         <h1>GRUMPECORD</h1>
         <p>Premiando el impacto musical en Perú</p>
+        <nav>
+            <ul>
+                <li><a href="#about">¿Qué es GRUMPECORD?</a></li>
+                <li><a href="#certifications">Certificaciones</a></li>
+                <li><a href="#latest">Últimos Certificados</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
-        <h2>Certificaciones</h2>
-        <table>
-            <tr>
-                <th>Certificación</th>
-                <th>Ventas (álbumes)</th>
-                <th>Reproducciones en YouTube</th>
-            </tr>
-            <tr>
-                <td>🏅 Oro</td>
-                <td>10,000</td>
-                <td>13,000,000</td>
-            </tr>
-            <tr>
-                <td>💿 Platino</td>
-                <td>50,000</td>
-                <td>65,000,000</td>
-            </tr>
-            <tr>
-                <td>💿💿 Doble Platino</td>
-                <td>100,000</td>
-                <td>130,000,000</td>
-            </tr>
-            <tr>
-                <td>💿💿💿 Triple Platino</td>
-                <td>150,000</td>
-                <td>195,000,000</td>
-            </tr>
-            <tr>
-                <td>💎 Diamante</td>
-                <td>500,000</td>
-                <td>650,000,000</td>
-            </tr>
-        </table>
+        <section id="about">
+            <h2>¿Qué es GRUMPECORD?</h2>
+            <p>GRUMPECORD certifica a los artistas peruanos por su impacto en la industria musical a través de reproducciones digitales.</p>
+        </section>
 
-        <h2>Calcula tu Certificación</h2>
-        <input type="number" id="views" placeholder="Ingresa vistas de YouTube">
-        <button onclick="calcularCertificacion()">Calcular</button>
-        <p id="resultado"></p>
+        <section id="certifications">
+            <h2>Certificaciones</h2>
+            <p>✅ 1,300 vistas en YouTube = 1 venta de álbum</p>
+            <table>
+                <tr>
+                    <th>Certificación</th>
+                    <th>Ventas (álbumes)</th>
+                    <th>Reproducciones en YouTube</th>
+                </tr>
+                <tr>
+                    <td>🏅 Oro</td>
+                    <td>10,000</td>
+                    <td>100,000</td>
+                </tr>
+                <tr>
+                    <td>💿 Platino</td>
+                    <td>50,000</td>
+                    <td>10,000,000</td>
+                </tr>
+                <tr>
+                    <td>💿💿 Doble Platino</td>
+                    <td>100,000</td>
+                    <td>30,000,000</td>
+                </tr>
+                <tr>
+                    <td>💿💿💿 Triple Platino</td>
+                    <td>150,000</td>
+                    <td>60,000,000</td>
+                </tr>
+                <tr>
+                    <td>💎 Diamante</td>
+                    <td>500,000</td>
+                    <td>190,000,000</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="latest">
+            <h2>Últimos Certificados</h2>
+            <p>Aquí se mostrarán los artistas que han recibido certificaciones recientemente.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contacto</h2>
+            <p>Si quieres saber más sobre GRUMPECORD, contáctanos en: <strong>grumpecord@email.com</strong></p>
+        </section>
     </main>
-
-    <script src="script.js"></script>
 </body>
 </html>
