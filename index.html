@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRUMPECORD - Certificaciones Musicales</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>GRUMPECORD</h1>
+        <p>Premiando el impacto musical en Perú</p>
+    </header>
+
+    <main>
+        <h2>Certificaciones</h2>
+        <table>
+            <tr>
+                <th>Certificación</th>
+                <th>Ventas (álbumes)</th>
+                <th>Reproducciones en YouTube</th>
+            </tr>
+            <tr>
+                <td>🏅 Oro</td>
+                <td>10,000</td>
+                <td>13,000,000</td>
+            </tr>
+            <tr>
+                <td>💿 Platino</td>
+                <td>50,000</td>
+                <td>65,000,000</td>
+            </tr>
+            <tr>
+                <td>💿💿 Doble Platino</td>
+                <td>100,000</td>
+                <td>130,000,000</td>
+            </tr>
+            <tr>
+                <td>💿💿💿 Triple Platino</td>
+                <td>150,000</td>
+                <td>195,000,000</td>
+            </tr>
+            <tr>
+                <td>💎 Diamante</td>
+                <td>500,000</td>
+                <td>650,000,000</td>
+            </tr>
+        </table>
+
+        <h2>Calcula tu Certificación</h2>
+        <input type="number" id="views" placeholder="Ingresa vistas de YouTube">
+        <button onclick="calcularCertificacion()">Calcular</button>
+        <p id="resultado"></p>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
